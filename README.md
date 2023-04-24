@@ -39,5 +39,10 @@ In order to build gnuplot container, execute command ` singularity build gnuplot
 
 > **_NOTE:_** This container does not need to change the terminal type to X11
 
+## NAMD
+`namd.def` file is used to build namd container. 
+
+In order to build namd container, execute command ` singularity build namd.sif namd.def`
+
 
 
