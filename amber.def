@@ -4,6 +4,10 @@ From: rockylinux:8.7
 %environment
  export PATH=/opt/programs/amber22/miniconda/bin/:/opt/programs/amber22/bin/:$PATH
  export DO_PARALLEL="mpirun -np 8"
+ export AMBERHOME=/opt/programs/amber22
+ export LD_LIBRARY_PATH=$AMBERHOME/lib
+ export PYTHONPATH=$AMBERHOME/lib/python3.10/site-packages/
+ export QUICK_BASIS=$AMBERHOME/AmberTools/src/quick/basis
 
 
 %files
