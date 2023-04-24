@@ -2,8 +2,9 @@
 Singularity containers for Alya Research Lab
 
 ## Note
-Before building singularity containers, please note that you have enough space for singularity tmpdir
-Do the below to check where you have space
+Before building singularity containers, please note that you have enough disk space for singularity tmpdir
+
+> Do the below checks to make sure which folder has enough free space to build singularity container
 
 * Issue `df -h` command and find out where the free space is
 * Create a tmp directory where you have free space. example `mkdir /opt/tmp` if you have free space in /opt
