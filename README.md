@@ -32,5 +32,12 @@ In order to build amber container, execute command ` singularity build amber.sif
 
 > **_NOTE:_** This will take around 30 minutes to complete
 
+## Gnuplot
+`gnuplot.def` file is used to build gnuplot container. 
+
+In order to build gnuplot container, execute command ` singularity build gnuplot.sif gnuplot.def`
+
+> **_NOTE:_** This container does not need to change the terminal type to X11
+
 
 
